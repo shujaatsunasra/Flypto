@@ -23,4 +23,6 @@ The Flutter app utilizes various packages like `animate_do`, `auto_animated`, an
 This Flutter app demonstrates an elegant design for a cryptocurrency wallet application, making it a great reference for UI design and interaction in similar projects.
 
 For detailed code and usage, please refer to the respective Dart files (`intro_page.dart`, `homepage.dart`, and `static_page.dart`) in the repository.
+![PR_2(Full)](https://github.com/shujaatsunasra/Flypto/assets/142157275/c4154bbc-c6db-47c8-b9fc-88ae4e6e6f53)
+
 
