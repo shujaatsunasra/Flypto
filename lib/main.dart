@@ -1,9 +1,8 @@
-import 'package:flypto/screen/home_page.dart';
-import 'package:flypto/screen/intro_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flypto/screen/static_page.dart';
 import 'package:flypto/theme.dart';
+
+import 'screen/intro_page.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));

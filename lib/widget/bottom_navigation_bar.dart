@@ -7,7 +7,7 @@ class BottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: txtCol, // Use the primary background color from your theme
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(10.0),
@@ -23,7 +23,7 @@ class BottomNavigation extends StatelessWidget {
       ),
       padding:
           const EdgeInsets.symmetric(vertical: 10), // Adjust padding as needed
-      child: Row(
+      child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           BottomNavItem(
@@ -58,6 +58,7 @@ class BottomNavItem extends StatelessWidget {
   final bool selected;
 
   const BottomNavItem({
+    super.key,
     required this.icon,
     required this.label,
     required this.selected,

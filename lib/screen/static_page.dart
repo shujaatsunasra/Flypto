@@ -1,3 +1,5 @@
+// ignore_for_file: sort_child_properties_last
+
 import 'dart:convert';
 import 'dart:math';
 
@@ -32,7 +34,6 @@ class _StaticPageState extends State<StaticPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     readJson();
   }
@@ -80,9 +81,9 @@ class _StaticPageState extends State<StaticPage> {
                   fontSize: 25,
                   fontWeight: FontWeight.bold),
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children: [
                 Icon(
                   IconlyBold.arrow_up_2,
                   size: 25,

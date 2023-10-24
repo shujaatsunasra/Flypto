@@ -5,7 +5,6 @@ class Button {
   static Widget primaryButton(
       {required Widget child, required VoidCallback onPressed}) {
     return MaterialButton(
-      child: child,
       elevation: 0,
       height: 50,
       color: Colors.black,
@@ -14,13 +13,13 @@ class Button {
           borderRadius: BorderRadius.circular(10),
           side: const BorderSide(color: Colors.grey)),
       onPressed: onPressed,
+      child: child,
     );
   }
 
   static Widget secondaryButton(
       {required Widget child, required VoidCallback onPressed}) {
     return MaterialButton(
-      child: child,
       elevation: 0,
       height: 50,
       color: xBack,
@@ -29,6 +28,7 @@ class Button {
         borderRadius: BorderRadius.circular(10),
       ),
       onPressed: onPressed,
+      child: child,
     );
   }
 }
